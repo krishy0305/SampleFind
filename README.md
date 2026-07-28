@@ -1,4 +1,4 @@
-# [SampleFind](https://samplefind.vercel.app)
+# [SampleFind](https://samplefind.vercel.app) <sub><sup>Visit website</sup></sub>
 
 **An AI-powered desktop sample manager built for music producers.**
 
