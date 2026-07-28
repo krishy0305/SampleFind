@@ -1,6 +1,6 @@
 # SampleFind
 
-**An AI-assisted desktop sample manager built for music producers.**
+**An AI-powered desktop sample manager built for music producers.**
 
 SampleFind turns large, disorganized sample folders into a searchable production
 library. Producers can scan the folders they choose, search by instrument,
