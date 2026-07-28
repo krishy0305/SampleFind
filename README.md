@@ -7,6 +7,14 @@ library. Producers can scan their sample folders, search by using natural langua
 category, sound, key, BPM, or sample type, preview results instantly, and drag
 audio directly into their DAW.
 
+## Beta downloads
+
+Downloads are provided for portfolio review and controlled testing. They are not
+currently notarized, code-signed production releases.
+
+- [Download SampleFind for macOS — Apple Silicon](https://github.com/krishy0305/SampleFind/releases/download/v0.1.6/SampleFind-0.1.6-arm64.dmg)
+- [Download SampleFind for Windows — 64-bit](https://github.com/krishy0305/SampleFind/releases/download/v0.1.6/SampleFind-Setup-0.1.6-x64.exe)
+
 ## Product demo
 
 
@@ -25,13 +33,6 @@ metadata, and semantic audio analysis to deliver focused results for both broad
 queries such as `Middle East` and specific searches such as
 `darbuka`, `kick one shot`, `high hat loop`, or `A minor melody`.
 
-## Beta downloads
-
-Downloads are provided for portfolio review and controlled testing. They are not
-currently notarized, code-signed production releases.
-
-- [Download SampleFind for macOS — Apple Silicon](https://github.com/krishy0305/SampleFind/releases/download/v0.1.6/SampleFind-0.1.6-arm64.dmg)
-- [Download SampleFind for Windows — 64-bit](https://github.com/krishy0305/SampleFind/releases/download/v0.1.6/SampleFind-Setup-0.1.6-x64.exe)
 
 ## Product highlights
 
