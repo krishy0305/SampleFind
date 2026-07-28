@@ -3,7 +3,7 @@
 **An AI-powered desktop sample manager built for music producers.**
 
 SampleFind turns large, disorganized sample folders into a searchable production
-library. Producers can scan the folders they choose, search by instrument,
+library. Producers can scan their sample folders, search by using natural language, instrument,
 category, sound, key, BPM, or sample type, preview results instantly, and drag
 audio directly into their DAW.
 
@@ -20,13 +20,13 @@ audio directly into their DAW.
 ## What SampleFind solves
 
 Music producers often accumulate thousands of samples across folders and sample
-packs. File names are inconsistent, categories overlap, and finding the right
-sound can interrupt the creative process.
+packs. File names are inconsistent, categories overlap, and manually searching through multiple large folder for the right
+sound can be inconvenient and can interrupt the creative process.
 
 SampleFind creates a local-first index and combines filename heuristics, audio
 metadata, and semantic audio analysis to deliver focused results for both broad
-queries such as `South Indian percussion` and specific searches such as
-`darbuka`, `closed hat`, or `A minor melody`.
+queries such as `Middle East` and specific searches such as
+`darbuka`, `kick one shot`, `high hat loop`, or `A minor melody`.
 
 ## Product highlights
 
