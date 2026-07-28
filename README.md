@@ -9,20 +9,9 @@ audio directly into their DAW.
 
 ## Product demo
 
-[![Watch the SampleFind product demo](https://img.youtube.com/vi/dqzIDlK9UwU?si=9iApeg_87KTGuuSI/maxresdefault.jpg)](https://youtu.be/dqzIDlK9UwU?si=9iApeg_87KTGuuSI)
+https://youtu.be/dqzIDlK9UwU?si=9iApeg_87KTGuuSI
 
 **[Watch the SampleFind product demo →](https://youtu.be/dqzIDlK9UwU?si=9iApeg_87KTGuuSI)**
-v
-
-> [!IMPORTANT]
-> **Portfolio beta — not a publicly supported consumer release.**
-> SampleFind is a functional cross-platform beta shared for portfolio review and
-> controlled evaluation. The current macOS build is not Apple-notarized and the
-> Windows installer is unsigned, so operating systems may display security
-> prompts. The product is architected and packaged for public deployment, but a
-> public launch would additionally require production code signing and
-> notarization, final distribution QA, privacy/legal documentation, and a
-> supported update channel.
 
 ## What SampleFind solves
 
@@ -99,6 +88,16 @@ This public repository is the home of the SampleFind product showcase, public
 documentation, and future landing page. The production desktop application
 source is maintained in a private repository. Source access can be provided to
 technical interviewers when appropriate.
+
+> [!IMPORTANT]
+> **Portfolio beta — not a publicly supported consumer release.**
+> SampleFind is a functional cross-platform beta shared for portfolio review and
+> controlled evaluation. The current macOS build is not Apple-notarized and the
+> Windows installer is unsigned, so operating systems may display security
+> prompts. The product is architected and packaged for public deployment, but a
+> public launch would additionally require production code signing and
+> notarization, final distribution QA, privacy/legal documentation, and a
+> supported update channel.
 
 ---
 
