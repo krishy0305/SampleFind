@@ -9,9 +9,10 @@ audio directly into their DAW.
 
 ## Product demo
 
-https://youtu.be/dqzIDlK9UwU?si=9iApeg_87KTGuuSI
 
-**[Watch the SampleFind product demo →](https://youtu.be/dqzIDlK9UwU?si=9iApeg_87KTGuuSI)**
+[![Watch the SampleFind product demo](https://img.youtube.com/vi/dqzIDlK9UwU/hqdefault.jpg)](https://youtu.be/dqzIDlK9UwU)
+
+**[Watch the complete SampleFind demo →](https://youtu.be/dqzIDlK9UwU)**
 
 ## What SampleFind solves
 
