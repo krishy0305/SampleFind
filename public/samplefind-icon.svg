@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="background" x1="150" y1="120" x2="874" y2="904" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="258" y1="310" x2="744" y2="690" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a5f3fc"/>
+      <stop offset="0.55" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="22" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="32" y="32" width="960" height="960" rx="224" fill="url(#background)"/>
+  <rect x="47" y="47" width="930" height="930" rx="209" fill="none" stroke="#67e8f9" stroke-opacity="0.28" stroke-width="10"/>
+
+  <circle cx="512" cy="500" r="300" fill="#22d3ee" fill-opacity="0.06"/>
+  <g fill="url(#wave)" filter="url(#glow)">
+    <rect x="252" y="440" width="48" height="120" rx="24"/>
+    <rect x="332" y="368" width="48" height="264" rx="24"/>
+    <rect x="412" y="286" width="48" height="428" rx="24"/>
+    <rect x="492" y="338" width="48" height="324" rx="24"/>
+    <rect x="572" y="402" width="48" height="196" rx="24"/>
+  </g>
+
+  <circle cx="665" cy="544" r="139" fill="#07121c" fill-opacity="0.92" stroke="#ecfeff" stroke-width="34"/>
+  <path d="M764 643L849 728" fill="none" stroke="#ecfeff" stroke-width="52" stroke-linecap="round"/>
+  <path d="M610 544H720" fill="none" stroke="#22d3ee" stroke-width="28" stroke-linecap="round"/>
+</svg>
