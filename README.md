@@ -66,7 +66,7 @@ flowchart LR
 
 - Next.js, React, TypeScript, and Tailwind CSS
 - FastAPI and Python
-- SQLite and local vector search
+- SQLite and ChromaDB local vector search
 - CLAP-based semantic audio analysis
 - Electron desktop runtime
 - Firebase authentication
