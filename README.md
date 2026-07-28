@@ -7,6 +7,13 @@ library. Producers can scan their sample folders, search by using natural langua
 category, sound, key, BPM, or sample type, preview results instantly, and drag
 audio directly into their DAW.
 
+## Product demo
+
+[![Watch the SampleFind product demo](https://img.youtube.com/vi/dqzIDlK9UwU?si=9iApeg_87KTGuuSI/maxresdefault.jpg)](https://youtu.be/dqzIDlK9UwU?si=9iApeg_87KTGuuSI)
+
+**[Watch the SampleFind product demo →](https://youtu.be/dqzIDlK9UwU?si=9iApeg_87KTGuuSI)**
+v
+
 > [!IMPORTANT]
 > **Portfolio beta — not a publicly supported consumer release.**
 > SampleFind is a functional cross-platform beta shared for portfolio review and
