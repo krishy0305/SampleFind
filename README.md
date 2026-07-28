@@ -64,26 +64,51 @@ flowchart LR
 
 ## Technology
 
-- Next.js, React, TypeScript, and Tailwind CSS
-- FastAPI and Python
-- SQLite and ChromaDB local vector search
-- CLAP-based semantic audio analysis
-- Electron desktop runtime
-- Firebase authentication
-- GitHub Actions for native Windows packaging
-- macOS DMG and Windows NSIS distribution
-
-
+- **Audio–text AI:** LAION-CLAP embeddings connect natural-language queries
+  with the sound of an audio sample, even when filenames are incomplete.
+- **Hybrid retrieval:** semantic similarity is combined with filename
+  heuristics, structured metadata, category signals, and ChromaDB vector
+  search.
+- **Intelligent classification:** model-assisted audio understanding works
+  alongside high-confidence rules for instruments, drum parts, loops, one
+  shots, and fills.
+- **Audio intelligence:** Librosa-based analysis enriches samples with BPM and
+  musical-key metadata, with filename metadata taking priority when available.
+- **Local data layer:** SQLite manages application metadata, source history,
+  classifications, favorites, and user-specific corrections, while ChromaDB
+  powers local embedding retrieval.
+- **Product stack:** Next.js, React, TypeScript, Tailwind CSS, FastAPI, Python,
+  Electron, and Firebase authentication.
+- **Release engineering:** GitHub Actions, macOS DMG packaging, and Windows
+  NSIS distribution.
 
 ## Engineering focus
 
 SampleFind demonstrates end-to-end product development across:
 
-- responsive product design and complex client-side state;
-- background job orchestration and transactional scan publishing;
-- applied machine learning and hybrid relevance ranking;
-- local data ownership and desktop filesystem integration;
-- cross-platform application packaging and release automation.
+- **Applied multimodal AI** — translating producer language into audio–text
+  embeddings that can retrieve samples by what they sound like, not only what
+  they are named.
+- **Hybrid relevance ranking** — prioritizing exact filename and metadata
+  matches while using semantic similarity for broader or unlabeled searches.
+- **Query-aware precision** — treating specific instrument searches more
+  strictly while allowing wider instrument families and regional categories to
+  return appropriately broader results.
+- **AI-assisted taxonomy design** — organizing instruments, drum parts,
+  effects, regional sounds, and sample types into searchable classifications.
+- **Human-in-the-loop correction** — allowing user-specific manual
+  reclassification without silently retraining or changing global model
+  behavior.
+- **Evaluation-driven development** — maintaining representative query sets for
+  exact instruments, sound families, genres, BPM, key, aliases, and ambiguous
+  producer terminology.
+- **Latency-conscious local inference** — keeping search and metadata retrieval
+  local while balancing semantic analysis with fast deterministic signals.
+- **Reliable background processing** — scan queues, persistent progress,
+  cancellation, transactional rollback, and publish-on-completion behavior.
+- **Full-stack product engineering** — responsive interfaces, authentication,
+  local filesystem integration, cross-platform packaging, and automated
+  releases.
 
 ## Source availability
 
