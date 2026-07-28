@@ -1,11 +1,13 @@
 # [SampleFind](https://samplefind.vercel.app)
 
-**An AI-powered desktop sample manager built for music producers.**
+**An AI-powered desktop sample manager built for music producers.**  [Visit website →](https://samplefind.vercel.app)
 
 SampleFind turns large, disorganized sample folders into a searchable production
 library. Producers can scan their sample folders, search by using natural language, instrument,
 category, sound, key, BPM, or sample type, preview results instantly, and drag
 audio directly into their DAW.
+
+
 
 ## Beta downloads
 
@@ -21,6 +23,7 @@ currently notarized, code-signed production releases.
 [![Watch the SampleFind product demo](https://img.youtube.com/vi/dqzIDlK9UwU/hqdefault.jpg)](https://youtu.be/dqzIDlK9UwU)
 
 **[Watch the complete SampleFind demo →](https://youtu.be/dqzIDlK9UwU)**
+
 
 ## What SampleFind solves
 
