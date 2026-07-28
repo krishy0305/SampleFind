@@ -25,6 +25,14 @@ metadata, and semantic audio analysis to deliver focused results for both broad
 queries such as `Middle East` and specific searches such as
 `darbuka`, `kick one shot`, `high hat loop`, or `A minor melody`.
 
+## Beta downloads
+
+Downloads are provided for portfolio review and controlled testing. They are not
+currently notarized, code-signed production releases.
+
+- [Download SampleFind for macOS — Apple Silicon](https://github.com/krishy0305/SampleFind/releases/download/v0.1.6/SampleFind-0.1.6-arm64.dmg)
+- [Download SampleFind for Windows — 64-bit](https://github.com/krishy0305/SampleFind/releases/download/v0.1.6/SampleFind-Setup-0.1.6-x64.exe)
+
 ## Product highlights
 
 - **Local-first indexing** — original audio files remain in the folders selected
@@ -65,13 +73,7 @@ flowchart LR
 - GitHub Actions for native Windows packaging
 - macOS DMG and Windows NSIS distribution
 
-## Beta downloads
 
-Downloads are provided for portfolio review and controlled testing. They are not
-currently notarized, code-signed production releases.
-
-- [Download SampleFind for macOS — Apple Silicon](https://github.com/krishy0305/SampleFind/releases/download/v0.1.6/SampleFind-0.1.6-arm64.dmg)
-- [Download SampleFind for Windows — 64-bit](https://github.com/krishy0305/SampleFind/releases/download/v0.1.6/SampleFind-Setup-0.1.6-x64.exe)
 
 ## Engineering focus
 
