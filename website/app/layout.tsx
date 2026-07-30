@@ -6,6 +6,7 @@ import "./globals.css";
 const title = "SampleFind";
 const description =
   "Scan local sample folders, classify sounds with AI, extract BPM and key, and find the right sound from one producer-focused library.";
+const faviconVersion = "20260730";
 
 export async function generateMetadata(): Promise<Metadata> {
   const requestHeaders = await headers();
@@ -21,6 +22,40 @@ export async function generateMetadata(): Promise<Metadata> {
     title,
     description,
     applicationName: "SampleFind",
+    icons: {
+      icon: [
+        {
+          url: `/samplefind-favicon-v2.png?v=${faviconVersion}`,
+          type: "image/png",
+          sizes: "512x512",
+        },
+        {
+          url: `/favicon.ico?v=${faviconVersion}`,
+          type: "image/x-icon",
+          sizes: "any",
+        },
+      ],
+      shortcut: [
+        {
+          url: `/samplefind-favicon-v2.png?v=${faviconVersion}`,
+          type: "image/png",
+        },
+      ],
+      apple: [
+        {
+          url: `/apple-icon.png?v=${faviconVersion}`,
+          type: "image/png",
+          sizes: "180x180",
+        },
+      ],
+      other: [
+        {
+          rel: "mask-icon",
+          url: `/safari-pinned-tab.svg?v=${faviconVersion}`,
+          color: "#22d3ee",
+        },
+      ],
+    },
     keywords: [
       "SampleFind",
       "AI sample manager",
