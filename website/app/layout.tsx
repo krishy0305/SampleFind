@@ -29,11 +29,6 @@ export async function generateMetadata(): Promise<Metadata> {
       "sample library",
       "LAION-CLAP",
     ],
-    icons: {
-      icon: "/samplefind-logo.svg",
-      shortcut: "/samplefind-logo.svg",
-      apple: "/samplefind-icon.svg",
-    },
     openGraph: {
       type: "website",
       title,
